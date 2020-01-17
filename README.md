@@ -10,6 +10,10 @@ Project Setup
     b. Run as maven install
     c. jar will be generate in the target folder
     d. Upload the jar to the deploy branch by drag & drop on github UI
+    
+Project Config
+--------------
+1. Change the config in the application.properties file to your respective azure db config
 
 Test Run
 ---------
