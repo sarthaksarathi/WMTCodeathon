@@ -20,3 +20,6 @@ Test Run
 1. Right click on the project and run as Java application ( Select the class with main function i.e. Spring boot class)
 2. Go to localhost:8080/hello-world-bean to test the web app
 3. Call /get-inventory to test the API and DB connection
+
+
+ILA TEST
