@@ -5,6 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -62,6 +64,12 @@ public class HelloWorldController {
 		catch(Exception e) {
 			resp.setErrorMessage("Products retrieval failed: " + e.getMessage());
 		}
+		return resp;
+	}
+	
+	@PostMapping(path = "/hello-world/test-post")
+	public Response helloWorldTestPost(@RequestBody Response inResp) {
+		Response resp = new Response("SUCCESS POST TEST", inResp);
 		return resp;
 	}
 	

@@ -31,7 +31,8 @@ public class ModelRecommendRepository {
 	private String password;
 	
 	//private String url = "jdbc:sqlserver://ilasqldbserver.database.windows.net:1433;database=ilasqldb;user=ilamuruk@ilasqldbserver;password=Dec2019M;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
-	private String url = "jdbc:sqlserver://azuredtabasesrvr9.database.windows.net:1433;database=azuredatabase9;user=azuredtabaseuser9@azuredtabasesrvr9;password=Welcometoazure#1;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
+	//private String url = "jdbc:sqlserver://azuredtabasesrvr9.database.windows.net:1433;database=azuredatabase9;user=azuredtabaseuser9@azuredtabasesrvr9;password=Welcometoazure#1;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
+	private String url = "jdbc:sqlserver://explorerdb.database.windows.net:1433;database=explorerdbserver;user=exploreradmin@explorerdb;password=Welcometoazure#1;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
 
 	private <T> List<T> populateData(ResultSet result, Class<T> klass) throws Exception {
 		List<T> records = new ArrayList<T>();
