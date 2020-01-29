@@ -1,0 +1,95 @@
+{
+	"successMessage": "Model saved successfully.",
+	"errorMessage": null,
+	"responseObject": {
+		"rownum": 0,
+		"account_name": "Sonia Kline",
+		"inv_horizon": "Less than 2 Years",
+		"inv_obj_least": 0,
+		"inv_obj_most": 1,
+		"inv_obj_imp": 0,
+		"inv_obj_some_imp": 4,
+		"inv_amount": 607536,
+		"liquidy_need": "Lump Sum",
+		"model_id": 3019,
+		"model_name": "Income Strategy 1",
+		"primary_fin_need": "Retirement",
+		"risk_profile": 2,
+		"risk_tolerance": 1,
+		"volatility": 8.04,
+		"modelHoldings": [
+			{
+				"rownum": 1,
+				"model_id": 3019,
+				"percentage": 7,
+				"ticker": "OBNK"
+			},
+			{
+				"rownum": 2,
+				"model_id": 3019,
+				"percentage": 7,
+				"ticker": "AZPN"
+			},
+			{
+				"rownum": 3,
+				"model_id": 3019,
+				"percentage": 5,
+				"ticker": "IMXI"
+			},
+			{
+				"rownum": 4,
+				"model_id": 3019,
+				"percentage": 8,
+				"ticker": "FB"
+			},
+			{
+				"rownum": 5,
+				"model_id": 3019,
+				"percentage": 9,
+				"ticker": "SRTS"
+			},
+			{
+				"rownum": 6,
+				"model_id": 3019,
+				"percentage": 10,
+				"ticker": "YY"
+			},
+			{
+				"rownum": 7,
+				"model_id": 3019,
+				"percentage": 6,
+				"ticker": "AGZD"
+			},
+			{
+				"rownum": 8,
+				"model_id": 3019,
+				"percentage": 7,
+				"ticker": "SCHL"
+			},
+			{
+				"rownum": 9,
+				"model_id": 3019,
+				"percentage": 6,
+				"ticker": "ESEA"
+			},
+			{
+				"rownum": 10,
+				"model_id": 3019,
+				"percentage": 5,
+				"ticker": "MCHI"
+			},
+			{
+				"rownum": 11,
+				"model_id": 3019,
+				"percentage": 10,
+				"ticker": "PDLB"
+			},
+			{
+				"rownum": 12,
+				"model_id": 3019,
+				"percentage": 20,
+				"ticker": "MELI"
+			}
+		]
+	}
+}

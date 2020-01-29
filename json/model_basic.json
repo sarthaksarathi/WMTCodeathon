@@ -1,0 +1,18 @@
+{
+	"rownum": 0,
+	"account_name": "Sonia Kline",
+	"inv_horizon": "Less than 2 Years",
+	"inv_obj_least": 0,
+	"inv_obj_most": 1,
+	"inv_obj_imp": 0,
+	"inv_obj_some_imp": 4,
+	"inv_amount": 607536,
+	"liquidy_need": "Lump Sum",
+	"model_id": 3019,
+	"model_name": "Income Strategy 1",
+	"primary_fin_need": "Retirement",
+	"risk_profile": 2,
+	"risk_tolerance": 1,
+	"volatility": 8.04,
+	"modelHoldings": null
+}

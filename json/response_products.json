@@ -1,0 +1,48 @@
+{
+	"successMessage": "Products retrieved successfully.",
+	"errorMessage": null,
+	"responseObject": [
+		{
+			"rownum": 38,
+			"product_name": "Acer Therapeutics Inc.",
+			"sector": "Health Care",
+			"asset_class": "Micro Cap",
+			"close_price": 4.04,
+			"risk_score": 167.94,
+			"return_2019": -80.07,
+			"return_2018": 45.27,
+			"return_2017": 44.52,
+			"return_2016": -66.79,
+			"return_2015": -51.91,
+			"return_2014": -60.44,
+			"return_2013": 59.65,
+			"return_2012": -69.35,
+			"return_2011": -36.73,
+			"return_2010": -22.63,
+			"symbol": "ACER",
+			"marketcap": 4.371211208E7,
+			"industry": "Major Pharmaceuticals"
+		},
+		{
+			"rownum": 39,
+			"product_name": "Achieve Life Sciences, Inc. ",
+			"sector": "Health Care",
+			"asset_class": "Micro Cap",
+			"close_price": 0.56,
+			"risk_score": 119.91,
+			"return_2019": -56.2,
+			"return_2018": -90.97,
+			"return_2017": -75.64,
+			"return_2016": -58.68,
+			"return_2015": -47.16,
+			"return_2014": -72.54,
+			"return_2013": -36.43,
+			"return_2012": 11.75,
+			"return_2011": -30.08,
+			"return_2010": -24.64,
+			"symbol": "ACHV",
+			"marketcap": 1.59675092376E7,
+			"industry": "Biotechnology: In Vitro & In Vivo Diagnostic Substances"
+		}
+	]
+}
